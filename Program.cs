@@ -59,11 +59,11 @@ namespace Homework15T1
                 Console.WriteLine("" + geomProgression.getNext() * geomProgression.next);
             }
 
-            arithProgression.reset();
+            geomProgression.reset();
 
             // Проверяем Сброс поля 
             Console.WriteLine();
-            Console.WriteLine("{0}", arithProgression.start);
+            Console.WriteLine("{0}", geomProgression.start);
 
             Console.WriteLine();
 
